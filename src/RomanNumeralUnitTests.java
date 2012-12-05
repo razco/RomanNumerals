@@ -57,6 +57,10 @@ public class RomanNumeralUnitTests {
 		assertEquals("XXXVIII",number.toRoman(38));
 		assertEquals("XXXIX",number.toRoman(39));
 	}
+	public void returnLtests()
+	{
+		assertEquals("XL",number.toRoman(40));
+	}
 	
 
 }
