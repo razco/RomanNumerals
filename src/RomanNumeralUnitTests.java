@@ -8,7 +8,7 @@ public class RomanNumeralUnitTests {
 	private RomanNumerals number = new RomanNumerals();
 
 	@Test
-	public void testThatMaxReturnsI() {
+	public void return1to3Itests() {
 		assertEquals("I", number.toRoman(1));
 		assertEquals("II", number.toRoman(2));
 		assertEquals("III", number.toRoman(3));
