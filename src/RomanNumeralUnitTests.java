@@ -26,6 +26,7 @@ public class RomanNumeralUnitTests {
 	public void testThatReturnsMoreThanV()
 	{
 		assertEquals("IX",number.toRoman(9));
+		assertEquals("X",number.toRoman(10));
 	}
 	
 
