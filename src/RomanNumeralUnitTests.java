@@ -14,7 +14,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("III", number.toRoman(3));
 
 	}
-	public void testThatMaxReturnsMoreThanI() {
+	public void testThatMaxReturnsV() {
 		assertEquals("IV", number.toRoman(4));
 		assertEquals("V", number.toRoman(5));
 		assertEquals("VI", number.toRoman(6));
