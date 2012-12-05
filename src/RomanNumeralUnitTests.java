@@ -61,6 +61,7 @@ public class RomanNumeralUnitTests {
 	public void returnLtests()
 	{
 		assertEquals("XL",number.toRoman(40));
+		assertEquals("XLI",number.toRoman(41));
 	}
 	
 

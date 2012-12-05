@@ -10,7 +10,7 @@ public class RomanNumerals {
 				toRoman+="L";
 				number-=50;
 			}
-			if(number==40)
+			if(number>=40)
 			{
 				toRoman+="XL";
 				number-=40;
