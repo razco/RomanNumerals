@@ -15,7 +15,7 @@ public class RomanNumeralUnitTests {
 
 	}
 	@Test
-	public void testThatMaxReturnsV() {
+	public void return4to8Vtests() {
 		assertEquals("IV", number.toRoman(4));
 		assertEquals("V", number.toRoman(5));
 		assertEquals("VI", number.toRoman(6));
