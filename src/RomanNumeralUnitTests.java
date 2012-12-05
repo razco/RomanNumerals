@@ -23,7 +23,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("VIII", number.toRoman(8));
 	}
 	@Test
-	public void testThatReturnsMoreThanV()
+	public void testThatMaxReturnsX()
 	{
 		assertEquals("IX",number.toRoman(9));
 		assertEquals("X",number.toRoman(10));
