@@ -135,6 +135,8 @@ public class RomanNumeralUnitTests {
 		assertEquals("XCVIII",number.toRoman(98));
 		assertEquals("XCIX",number.toRoman(99));
 		assertEquals("C",number.toRoman(100));
+		
+		assertEquals("CXC",number.toRoman(190));
 	}
 	
 
