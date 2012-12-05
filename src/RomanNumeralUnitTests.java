@@ -58,7 +58,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("XXXIX",number.toRoman(39));
 	}
 	@Test
-	public void returnLtests()
+	public void return40to49Ltests()
 	{
 		assertEquals("XL",number.toRoman(40));
 		assertEquals("XLI",number.toRoman(41));
