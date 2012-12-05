@@ -23,7 +23,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("VIII", number.toRoman(8));
 	}
 	@Test
-	public void returnXtests()
+	public void return9to39Xtests()
 	{
 		assertEquals("IX",number.toRoman(9));
 		assertEquals("X",number.toRoman(10));
