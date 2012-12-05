@@ -117,6 +117,12 @@ public class RomanNumeralUnitTests {
 		assertEquals("LXXXVII",number.toRoman(87));
 		assertEquals("LXXXVIII",number.toRoman(88));
 		assertEquals("LXXXIX",number.toRoman(89));
+
+	}
+	
+	@Test
+	public void returnMoreThan90Ctests()
+	{
 		
 		assertEquals("XC",number.toRoman(90));
 	}
