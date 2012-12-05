@@ -3,6 +3,19 @@ public class RomanNumerals {
 
 	public String toRoman(int number) {
 		String toRoman="";
+		if(number>39)
+		{
+			while(number>=50)
+			{
+				toRoman+="L";
+				number-=50;
+			}
+			if(number==40)
+			{
+				toRoman+="XL";
+				number-=40;
+			}
+		}
 		if(number>8)
 		{
 			while(number>=10)
