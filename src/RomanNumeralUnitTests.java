@@ -74,7 +74,16 @@ public class RomanNumeralUnitTests {
 	@Test
 	public void returnMoreThan50Ltests()
 	{
-	
+		assertEquals("L",number.toRoman(50));
+		assertEquals("LI",number.toRoman(51));
+		assertEquals("LII",number.toRoman(52));
+		assertEquals("LIII",number.toRoman(53));
+		assertEquals("LIV",number.toRoman(54));
+		assertEquals("LV",number.toRoman(55));
+		assertEquals("LVI",number.toRoman(56));
+		assertEquals("LVII",number.toRoman(57));
+		assertEquals("LVIII",number.toRoman(58));
+		assertEquals("LIX",number.toRoman(59));
 	}
 	
 
