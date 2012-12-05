@@ -3,6 +3,11 @@ public class RomanNumerals {
 
 	public String toRoman(int number) {
 		String toRoman="";
+		if(number>8)
+		{
+			toRoman+="IX";
+			number-=9;
+		}
 		if(number>3)
 		{
 			while(number>=5)
