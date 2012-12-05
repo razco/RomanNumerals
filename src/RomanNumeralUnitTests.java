@@ -138,6 +138,11 @@ public class RomanNumeralUnitTests {
 		
 		assertEquals("CXC",number.toRoman(190));
 	}
+	@Test
+	public void returnMoreThan400Dtests()
+	{
+		assertEquals("CD",number.toRoman(400));
+	}
 	
 
 }
