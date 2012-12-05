@@ -72,7 +72,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("XLIX",number.toRoman(49));
 	}
 	@Test
-	public void returnMoreThan50Ltests()
+	public void return50to89Ltests()
 	{
 		assertEquals("L",number.toRoman(50));
 		assertEquals("LI",number.toRoman(51));
