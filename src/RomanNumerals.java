@@ -1,6 +1,70 @@
 
 public class RomanNumerals {
 
+	private int newRomanPreSignLoc[];
+	private int newRomanSignLoc[];
+	private String newRomanPreSign[];
+	private String newRomanSign[];
+	
+	public RomanNumerals()
+	{
+		newRomanPreSignLoc=new int[6];
+		newRomanPreSignLoc[0]=900;
+		newRomanPreSignLoc[1]=400;
+		newRomanPreSignLoc[2]=90;
+		newRomanPreSignLoc[3]=40;
+		newRomanPreSignLoc[4]=9;
+		newRomanPreSignLoc[5]=4;
+		
+		newRomanSignLoc=new int[6];
+		newRomanSignLoc[0]=1000;
+		newRomanSignLoc[1]=500;
+		newRomanSignLoc[2]=100;
+		newRomanSignLoc[3]=50;
+		newRomanSignLoc[4]=10;
+		newRomanSignLoc[5]=5;
+		
+		newRomanPreSign=new String[6];
+		newRomanPreSign[0]="CM";
+		newRomanPreSign[1]="CD";
+		newRomanPreSign[2]="XC";
+		newRomanPreSign[3]="XL";
+		newRomanPreSign[4]="IX";
+		newRomanPreSign[5]="IV";
+		
+		newRomanSign=new String[6];
+		newRomanSign[0]="M";
+		newRomanSign[1]="D";
+		newRomanSign[2]="C";
+		newRomanSign[3]="L";
+		newRomanSign[4]="X";
+		newRomanSign[5]="V";
+		
+	}
+	
+	public String toRomanShorterTry(int number)
+	{
+		String toRoman="";
+		int i=0;
+		while(i<newRomanSignLoc.length)
+		{
+			while(number>=newRomanSignLoc[i])
+			{
+				toRoman+=newRomanSign[i];
+				number-=newRomanSignLoc[i];
+			}
+			if(number>=newRomanPreSignLoc[i])
+			{
+				toRoman+=newRomanPreSign[i];
+				number-=newRomanPreSignLoc[i];
+			}
+			i++;
+		}
+		for(i=0;i<number;i++)
+			toRoman+= "I";
+		return toRoman;
+	}
+	
 	public String toRoman(int number) {
 		String toRoman="";
 		if(number>899)
