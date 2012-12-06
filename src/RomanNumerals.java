@@ -1,6 +1,7 @@
 
 public class RomanNumerals {
 
+	/*these arrays save data for fast Arabic to Roman numerals conversion*/
 	private int newRomanPreSignLoc[];
 	private int newRomanSignLoc[];
 	private String newRomanPreSign[];
