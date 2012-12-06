@@ -65,7 +65,7 @@ public class RomanNumerals {
 		return toRoman;
 	}
 	
-	public String toRoman(int number) {
+	public String toRomanWorking(int number) {
 		String toRoman="";
 		if(number>899)
 		{
