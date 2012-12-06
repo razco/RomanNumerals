@@ -196,8 +196,15 @@ public class RomanNumeralUnitTests {
 		assertEquals("MMXIV",number.toRoman(2014));
 		assertEquals("MMXV",number.toRoman(2015));
 		assertEquals("MMXVI",number.toRoman(2016));
+		assertEquals("MD",number.toRoman(1500));
+		assertEquals("MDCCC",number.toRoman(1800));
+		assertEquals("MMCMXCIX",number.toRoman(2999));
+		assertEquals("MMM",number.toRoman(3000));
+		assertEquals("MMCMXLIX",number.toRoman(2949));
+		assertEquals("MMDXLIX",number.toRoman(2549));
+		assertEquals("MMCDXLIX",number.toRoman(2449));
 	}
-	
+
 	//CMXCVIII=998 or MDCCXII=1712
 	/*
 	 * 1900 	MCM
