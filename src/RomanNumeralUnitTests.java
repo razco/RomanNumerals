@@ -230,6 +230,9 @@ public class RomanNumeralUnitTests {
 2016 	MMXVI
 1500	MD
 1800	MDCCC
+2999	MMCMXCIX
+3000	MMM
+2949	MMCMXLIX
 
 
 	 */
