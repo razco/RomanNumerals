@@ -228,6 +228,10 @@ public class RomanNumeralUnitTests {
 2014 	MMXIV
 2015 	MMXV
 2016 	MMXVI
+1500	MD
+1800	MDCCC
+
+
 	 */
 
 }
