@@ -163,6 +163,10 @@ public class RomanNumeralUnitTests {
 		
 	}
 	
-	
+	@Test
+	public void returnMoreThan900Mtests()
+	{
+		assertEquals("CM",number.toRoman(900));
+	}
 
 }
