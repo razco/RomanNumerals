@@ -139,7 +139,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("CXC",number.toRoman(190));
 	}
 	@Test
-	public void returnMoreThan400Dtests()
+	public void return400to499Dtests()
 	{
 		assertEquals("CD",number.toRoman(400));
 		assertEquals("CDXLII",number.toRoman(442));
