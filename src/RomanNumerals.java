@@ -42,7 +42,7 @@ public class RomanNumerals {
 		
 	}
 	
-	public String toRomanShorterTry(int number)
+	public String toRoman(int number)
 	{
 		String toRoman="";
 		int i=0;
