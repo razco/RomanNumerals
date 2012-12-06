@@ -152,7 +152,7 @@ public class RomanNumeralUnitTests {
 
 	}
 	@Test
-	public void returnMoreThan500Dtests()
+	public void return500to890Dtests()
 	{
 		assertEquals("D",number.toRoman(500));
 		assertEquals("DI",number.toRoman(501));
