@@ -149,8 +149,20 @@ public class RomanNumeralUnitTests {
 		assertEquals("CDXCI",number.toRoman(491));
 		assertEquals("CDXCIX",number.toRoman(499));
 		assertEquals("CDXCIV",number.toRoman(494));
-		assertEquals("D",number.toRoman(500));
+
 	}
+	@Test
+	public void returnMoreThan500Dtests()
+	{
+		assertEquals("D",number.toRoman(500));
+		assertEquals("DI",number.toRoman(501));
+		assertEquals("DL",number.toRoman(550));
+		assertEquals("DXXX",number.toRoman(530));
+		assertEquals("DCCVII",number.toRoman(707));
+		assertEquals("DCCCXC",number.toRoman(890));
+		
+	}
+	
 	
 
 }
